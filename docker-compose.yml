@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  app:
+    build: .
+    image: mattipaksula/xpra
+    ports:
+      - 14500:14500

@@ -1,0 +1,10 @@
+stack: xpra
+version: 0.0.1
+expose: app
+
+services:
+  app:
+    image: mattipaksula/xpra
+    instances: 1
+    ports:
+      - 80:14500
